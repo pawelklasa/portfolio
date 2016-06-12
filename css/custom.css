@@ -1,0 +1,47 @@
+body {
+  margin-top: 70px;
+  background-color: #e9edef;
+}
+
+
+
+/*NAV*/
+
+.sitename {
+  vertical-align: middle;
+  font-family: 'Catamaran';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.statement p {
+  vertical-align: middle;
+  margin: 0px;
+}
+
+.custom ul {
+  text-align: right;
+}
+
+.custom ul li{
+  vertical-align: middle;
+  font-family: 'Catamaran';
+  font-size: 24px;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/*CONTENT*/
+
+.holder {
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #d1d5d7;
+  background-color: #fff;
+  width: 1000px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}

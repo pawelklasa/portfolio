@@ -35,13 +35,37 @@ body {
 
 /*CONTENT*/
 
+.holder-container {
+  margin-top: 70px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .holder {
+  width:100%;
+  height:100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   border-radius: 2px;
   border: 1px solid;
   border-color: #d1d5d7;
   background-color: #fff;
-  width: 1000px;
-  height: 300px;
-  margin-right: auto;
-  margin-left: auto;
 }
+
+.logo img {
+  margin-right: 20px;
+  float: left;
+  width: 300px;
+}
+
+.description {
+  float: left;
+}
+
+.empty {
+  clear: both;
+}
+

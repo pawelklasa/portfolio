@@ -1,3 +1,9 @@
+
+::selection {
+    
+    background: #e25e75;
+}
+
 body {
   margin-top: 70px;
   background-color: #e9edef;
@@ -16,6 +22,36 @@ a {
 h1 {
   font-family: 'Catamaran';
 }
+
+ul a {
+  font-family: 'Catamaran';
+  font-size: 20px;
+  font-weight: bold;
+}
+  /* unvisited link */
+ul a:link {
+  font-family: 'Catamaran';
+    color: red;
+}
+
+/* visited link */
+ul a:visited {
+  font-family: 'Catamaran';
+    color: green;
+}
+
+/* mouse over link */
+ul a:hover {
+  font-family: 'Catamaran';
+    color: hotpink;
+}
+
+/* selected link */
+ul a:active {
+  font-family: 'Catamaran';
+    color: blue;
+}
+
 
 
 
@@ -45,8 +81,8 @@ h1 {
   font-family: 'Catamaran';
   font-size: 24px;
   display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 
@@ -107,10 +143,15 @@ h1 {
   .custom ul li{
   vertical-align: middle;
   font-family: 'Catamaran';
-  font-size: 18px;
+  
   display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+ul a {
+  font-family: 'Catamaran';
+  font-size: 16px;
 }
 
   }
@@ -135,8 +176,6 @@ h1 {
   .custom ul li{
   vertical-align: middle;
   font-family: 'Catamaran';
-
-  font-size: 24px;
   display: inline;
   margin-left: 3px;
   margin-right: 3px;
@@ -177,6 +216,17 @@ h1 {
 .social {
   text-align: center;
 }
+
+ul a {
+  font-family: 'Catamaran';
+  font-size: 20px;
+}
+
+ul {
+  margin-top: 15px;
+}
+
+
 
 }
 

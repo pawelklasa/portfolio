@@ -24,34 +24,40 @@ h1 {
 }
 
 ul a {
-  font-family: 'Catamaran';
+  font-family: 'Oswald';
   font-size: 20px;
   font-weight: bold;
+  color: #333;
 }
   /* unvisited link */
 ul a:link {
-  font-family: 'Catamaran';
+  font-family: 'Oswald';
     color: red;
 }
 
 /* visited link */
 ul a:visited {
-  font-family: 'Catamaran';
+  font-family: 'Oswald';
     color: green;
 }
 
 /* mouse over link */
 ul a:hover {
-  font-family: 'Catamaran';
+  font-family: 'Oswald';
     color: hotpink;
 }
 
 /* selected link */
 ul a:active {
-  font-family: 'Catamaran';
+  font-family: 'Oswald';
     color: blue;
+
 }
 
+.active {
+  border-bottom: 2px solid #333;
+  text-decoration: none;
+}
 
 
 
